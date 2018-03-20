@@ -7,7 +7,7 @@ if [ -z "$1" ]
     jupyter notebook 
 elif [ "$1" == *".ipynb"* ]
   then
-    jupyter notebook "$1"
+    jupyter notebook --ip=0.0.0.0 --no-browser "$1"
 else
     exec "$@"
 fi
