@@ -90,9 +90,9 @@ To train the model, I used 20 epochs, a batch size of 128, and a learning rate o
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
 My final model results were:
-* training set accuracy of ?
-* validation set accuracy of 0.953
-* test set accuracy of ?
+* training set accuracy of 0.999
+* validation set accuracy of 0.940
+* test set accuracy of 0.927
 
 If an iterative approach was chosen:
 * What was the first architecture that was tried and why was it chosen?
@@ -133,7 +133,7 @@ Here are the results of the prediction:
 | Slippery road			| Slippery road      							|
 
 
-The model was able to correctly guess 2 of the 7 traffic signs, which gives an accuracy of 29%. This does not compare well to the accuracy on the test set of ...
+The model was able to correctly guess 2 of the 7 traffic signs, which gives an accuracy of 29%. This does not compare well to the accuracy on the test set of 92.7%.
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
